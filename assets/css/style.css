@@ -1,0 +1,54 @@
+body, html {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+/* BACKGROUND */
+/*  background-image: url('../img/backgroundcopy.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+
+/* FONT */
+/*  font-family: 'Open Sans', sans-serif;
+    color: #656c6d;*/
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#gameWrapper{
+    width:900px;
+    height:700px; 
+
+    margin-top:auto;
+    margin-bottom:auto; 
+    margin-left: auto; 
+    margin-right:auto; 
+
+}
+#game{
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
