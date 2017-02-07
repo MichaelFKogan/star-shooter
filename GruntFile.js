@@ -4,6 +4,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-open');
     grunt.loadNpmTasks('grunt-contrib-concat');
 
+    grunt.registerTask('heroku',
+    ['compass:dist', 'autoprefixer', 'imagemin']);
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         connect: {
