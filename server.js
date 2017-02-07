@@ -8,7 +8,7 @@ var path = require('path');
 // Sets up the Express app
 // =============================================================
 var app = express();
-var PORT = 7000;
+var PORT = 3000;
 
 
 
